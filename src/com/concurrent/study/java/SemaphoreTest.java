@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by shuye on 2016/12/18.
+ * 信号量
  */
 public class SemaphoreTest {
     public static void main(String[] args) {
