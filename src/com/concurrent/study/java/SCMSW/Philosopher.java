@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by shuye on 2016/12/19.
+ * week1 2
  */
 public class Philosopher extends Thread {
     static class Chopstick{
