@@ -1,4 +1,4 @@
-package com.concurrent.study.java;
+package com.concurrent.study.java.ThreadPool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -30,5 +30,6 @@ public class SingleExecutor {
             executor.execute(subrun);
             executor.execute(mainrun);
         }
+        executor.shutdown();
     }
 }

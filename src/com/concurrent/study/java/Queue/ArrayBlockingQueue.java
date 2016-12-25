@@ -1,4 +1,4 @@
-package com.concurrent.study.java;
+package com.concurrent.study.java.Queue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package com.concurrent.study.java;
+package com.concurrent.study.java.Queue;
 
 import java.util.Queue;
 import java.util.concurrent.*;
