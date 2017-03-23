@@ -61,7 +61,7 @@ public class PhilosopherCondition extends Thread {
         }finally {
             table.unlock();
         }
-        Thread.sleep(1000);
+        Thread.sleep(random.nextInt(1000));
     }
 
     private void eat() throws InterruptedException {
@@ -75,7 +75,7 @@ public class PhilosopherCondition extends Thread {
         }finally {
             table.unlock();
         }
-        Thread.sleep(1000);
+        Thread.sleep(random.nextInt(1000));
     }
 
     public static void main(String[] args) {
