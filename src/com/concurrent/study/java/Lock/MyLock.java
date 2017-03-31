@@ -1,4 +1,4 @@
-package com.concurrent.study.java;
+package com.concurrent.study.java.Lock;
 
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;

@@ -1,4 +1,4 @@
-package com.concurrent.study.java;
+package com.concurrent.study.java.Lock;
 
 import java.util.HashMap;
 import java.util.Map;
